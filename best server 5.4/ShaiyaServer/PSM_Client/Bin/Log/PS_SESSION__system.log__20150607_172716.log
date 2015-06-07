@@ -1,0 +1,6 @@
+2015-06-07 17:27:16 PS_SESSION__system log start (Session)
+2015-06-07 17:27:17 userlog connect failed
+2015-06-07 17:27:17 initserver() failed
+2015-06-07 17:27:17 3 1 SService::ServiceCtrlDispatcher(): m_pService->Init()
+2015-06-07 17:27:17 PS_SESSION__system log end (Session)
+2015-06-07 17:27:17 3 1 SService::ServiceCtrlDispatcher(): service shutdown

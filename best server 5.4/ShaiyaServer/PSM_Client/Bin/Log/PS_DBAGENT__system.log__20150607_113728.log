@@ -1,0 +1,5 @@
+2015-06-07 11:37:28 PS_DBAGENT__system log start (DBAgent01)
+2015-06-07 11:38:41 3 1 SERVICE_CONTROL_STOP
+2015-06-07 11:38:42 PS_DBAGENT__system log end (DBAgent01)
+
+2015-06-07 11:38:42 3 1 SService::ServiceCtrlDispatcher(): service shutdown

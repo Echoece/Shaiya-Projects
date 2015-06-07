@@ -1,0 +1,10 @@
+2015-06-07 11:58:43 PS_GAMELOG__system log start (GameLog01)
+Module list:
+C:\Shaiya\ShaiyaServer\PSM_Client\Bin\ps_gameLog.exe, loaded at 0x00400000 - 10/10/18 16:33:52
+2015-06-07 11:59:49 connect game
+2015-06-07 17:23:21 1 1 SAgent::Disconnect: (4, 64)
+2015-06-07 17:23:21 1 1 T=005:23:00:000, RC=71,RCS=0, RB=1034,RBS=0, SC=64,SCS=0, SB=256,SBS=0
+2015-06-07 17:23:21 disconnect game
+2015-06-07 17:23:21 3 1 SERVICE_CONTROL_STOP
+2015-06-07 17:23:21 PS_GAMELOG__system log end (GameLog01)
+2015-06-07 17:23:21 3 1 SService::ServiceCtrlDispatcher(): service shutdown

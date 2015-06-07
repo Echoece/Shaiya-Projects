@@ -1,0 +1,153 @@
+2015-06-07 11:38:15 PS_GAME__system log start (Game01) [GERMANY]
+
+
+================================================================
+2015-06-07 11:38:15 Exception !!!, code=0xE06D7363, address=0x75A8C41F
+Minidump write end.....................
+0x75A8C41F KERNELBASE.dll: RaiseException + 88
+0x6F9E519B ItemMallFix.dll: Start + 9243
+0x6F9E3F3E ItemMallFix.dll: Start + 4542
+0x6F9E3E41 ItemMallFix.dll: Start + 4289
+0x6F9E11E3 ItemMallFix.dll: <unknown symbol>
+0x6F9E142F ItemMallFix.dll: <unknown symbol>
+0x6F9E3099 ItemMallFix.dll: Start + 793
+0x75DF33AA kernel32.dll: BaseThreadInitThunk + 18
+0x77119EF2 ntdll.dll: RtlInitializeExceptionChain + 99
+0x77119EC5 ntdll.dll: RtlInitializeExceptionChain + 54
+Stack trace end.....................
+
+Stack trace(all thread) begin.....................
+
+Module list:
+C:\Shaiya\ShaiyaServer\PSM_Client\Bin\ps_game.exe, loaded at 0x00400000 - 11/09/14 17:10:08
+WARNING: Non-directory path: 'ps_game.exe'
+WARNING: Inaccessible path: 'ps_game.pdb'
+
+Microsoft (R) Windows Debugger Version 6.1.7601.17514 X86
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+
+Loading Dump File [C:\Shaiya\ShaiyaServer\PSM_Client\Bin\Log\20150607_113815_ps_game.dmp]
+User Mini Dump File: Only registers, stack and portions of memory are available
+
+WARNING: Non-directory path: 'ps_game.exe'
+WARNING: Inaccessible path: 'ps_game.pdb'
+Symbol search path is: ps_game.pdb
+Executable search path is: ps_game.exe
+Windows 7 Version 7601 (Service Pack 1) UP Free x86 compatible
+Product: Server, suite: Enterprise TerminalServer SingleUserTS
+Machine Name:
+Debug session time: Sun Jun  7 11:38:15.000 2015 (UTC + 7:00)
+System Uptime: not available
+Process Uptime: not available
+................................................................
+..........
+The call to LoadLibrary(ext) failed, Win32 error 0n2
+    "The system cannot find the file specified."
+Please check your debugger configuration and/or network access.
+The call to LoadLibrary(exts) failed, Win32 error 0n2
+    "The system cannot find the file specified."
+Please check your debugger configuration and/or network access.
+The call to LoadLibrary(uext) failed, Win32 error 0n2
+    "The system cannot find the file specified."
+Please check your debugger configuration and/or network access.
+The call to LoadLibrary(ntsdexts) failed, Win32 error 0n2
+    "The system cannot find the file specified."
+Please check your debugger configuration and/or network access.
+This dump file has an exception of interest stored in it.
+The stored exception information can be accessed via .ecxr.
+(1178.20fc): C++ EH exception - code e06d7363 (first/second chance not available)
+
+thread count = 10
+thread 0(9452)
+0x770FF8B1 ntdll.dll: ZwWaitForSingleObject + 21
+0x75DF1194 kernel32.dll: WaitForSingleObjectEx + 67
+0x75DF1148 kernel32.dll: WaitForSingleObject + 18
+0x76107BE6 sechost.dll: I_ScIsSecurityProcess + 2215
+0x76108040 sechost.dll: RegisterServiceCtrlHandlerExA + 634
+0x76108553 sechost.dll: StartServiceCtrlDispatcherA + 104
+0x004FC01B ps_game.exe: <unknown symbol>
+0x004F5A31 ps_game.exe: <unknown symbol>
+
+thread 1(8444)
+0x77100C22 ntdll.dll: ZwGetContextThread + 18
+0x5AD3FE99 dbghelp.dll: SymGetModuleBase
+0x77112C8F ntdll.dll: RtlInitializeCriticalSection + 37
+0x77112C8F ntdll.dll: RtlInitializeCriticalSection + 37
+0x77113CC3 ntdll.dll: RtlImageNtHeader + 2879
+
+thread 2(9484)
+0x7710013D ntdll.dll: ZwWaitForMultipleObjects + 21
+0x75DF1A2C kernel32.dll: WaitForMultipleObjectsEx + 142
+0x75DF4220 kernel32.dll: WaitForMultipleObjects + 24
+0x004FA938 ps_game.exe: <unknown symbol>
+0x771101BB ntdll.dll: LdrGetDllHandleEx + 1155
+0x7711030A ntdll.dll: LdrGetProcedureAddressEx + 287
+0x77110382 ntdll.dll: LdrGetProcedureAddressEx + 407
+0x771101E2 ntdll.dll: LdrGetProcedureAddress + 24
+0x0052848E ps_game.exe: <unknown symbol>
+0x0051D09F ps_game.exe: <unknown symbol>
+0x75DF33AA kernel32.dll: BaseThreadInitThunk + 18
+0x77119EF2 ntdll.dll: RtlInitializeExceptionChain + 99
+0x77119EC5 ntdll.dll: RtlInitializeExceptionChain + 54
+
+thread 3(10696)
+0x77101F26 ntdll.dll: ZwWaitForWorkViaWorkerFactory + 18
+0x75DF33AA kernel32.dll: BaseThreadInitThunk + 18
+0x77119EF2 ntdll.dll: RtlInitializeExceptionChain + 99
+0x77119EC5 ntdll.dll: RtlInitializeExceptionChain + 54
+
+thread 4(4548)
+0x7710013D ntdll.dll: ZwWaitForMultipleObjects + 21
+0x75DF33AA kernel32.dll: BaseThreadInitThunk + 18
+0x77119EF2 ntdll.dll: RtlInitializeExceptionChain + 99
+0x77119EC5 ntdll.dll: RtlInitializeExceptionChain + 54
+
+thread 5(3652)
+0x77101F26 ntdll.dll: ZwWaitForWorkViaWorkerFactory + 18
+0x75DF33AA kernel32.dll: BaseThreadInitThunk + 18
+0x77119EF2 ntdll.dll: RtlInitializeExceptionChain + 99
+0x77119EC5 ntdll.dll: RtlInitializeExceptionChain + 54
+
+thread 6(10428)
+0x770FF8B1 ntdll.dll: ZwWaitForSingleObject + 21
+0x746476A6 MSWSOCK.dll: <unknown symbol>
+0x76456B87 WS2_32.dll: recv + 121
+0x6FC316C7 DBNETLIB.DLL: ConnectionRead + 423
+0x6CD7442A SQLSRV32.dll: SQLGetDiagFieldW + 13183
+0x6CD77C7A SQLSRV32.dll: SQLDisconnect + 7523
+0x6CD5ED3B SQLSRV32.dll: SQLNumResultCols + 10840
+0x6CDB4A59 SQLSRV32.dll: SQLGetData + 2776
+0x73CEB789 ODBC32.dll: SQLGetData + 1314
+0x004F8208 ps_game.exe: <unknown symbol>
+0x004DAFF9 ps_game.exe: <unknown symbol>
+0x77135E78 ntdll.dll: RtlDosSearchPath_Ustr + 902
+
+thread 7(8824)
+0x770FFD71 ntdll.dll: ZwDelayExecution + 21
+0x75A94498 KERNELBASE.dll: Sleep + 15
+0x7626D98D ole32.dll: CoGetTreatAsClass + 12894
+0x7626D87A ole32.dll: CoGetTreatAsClass + 12619
+0x75DF33AA kernel32.dll: BaseThreadInitThunk + 18
+0x77119EF2 ntdll.dll: RtlInitializeExceptionChain + 99
+0x77119EC5 ntdll.dll: RtlInitializeExceptionChain + 54
+
+thread 8(8204)
+0x770FF8B1 ntdll.dll: ZwWaitForSingleObject + 21
+0x75DF1194 kernel32.dll: WaitForSingleObjectEx + 67
+0x75DF1148 kernel32.dll: WaitForSingleObject + 18
+0x5A48B3D6 comsvcs.dll: <unknown symbol>
+0x75DF33AA kernel32.dll: BaseThreadInitThunk + 18
+0x77119EF2 ntdll.dll: RtlInitializeExceptionChain + 99
+0x77119EC5 ntdll.dll: RtlInitializeExceptionChain + 54
+
+thread 9(10036)
+0x770FF939 ntdll.dll: NtRemoveIoCompletion + 21
+0x5A23B644 sqlncli11.dll: DllMain + 1096
+0x75DF33AA kernel32.dll: BaseThreadInitThunk + 18
+0x77119EF2 ntdll.dll: RtlInitializeExceptionChain + 99
+0x77119EC5 ntdll.dll: RtlInitializeExceptionChain + 54
+
+Stack trace(all thread) end.....................
+================================================================
+

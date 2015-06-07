@@ -1,0 +1,16 @@
+2015-05-11 09:07:26 PS_USERLOG__system log start (UserLog)
+2015-05-11 09:07:28 connect
+2015-05-11 09:07:52 connect
+2015-05-11 09:08:40 connect
+2015-05-12 07:07:10 1 1 SAgent::Disconnect: (4, 64)
+2015-05-12 07:07:10 1 1 T=021:58:00:000, RC=265,RCS=0, RB=1157,RBS=0, SC=263,SCS=0, SB=1052,SBS=0
+2015-05-12 07:07:10 disconnect
+2015-05-12 07:07:10 1 1 SAgent::Disconnect: (4, 64)
+2015-05-12 07:07:10 1 1 T=021:59:00:000, RC=264,RCS=0, RB=1089,RBS=0, SC=263,SCS=0, SB=1052,SBS=0
+2015-05-12 07:07:10 disconnect
+2015-05-12 07:07:10 1 1 SAgent::Disconnect: (4, 64)
+2015-05-12 07:07:10 1 1 T=021:59:00:000, RC=264,RCS=0, RB=1089,RBS=0, SC=263,SCS=0, SB=1052,SBS=0
+2015-05-12 07:07:10 disconnect
+2015-05-12 07:07:10 3 1 SERVICE_CONTROL_STOP
+2015-05-12 07:07:10 PS_USERLOG__system log end (UserLog)
+2015-05-12 07:07:10 3 1 SService::ServiceCtrlDispatcher(): service shutdown
