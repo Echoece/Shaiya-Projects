@@ -1,0 +1,12 @@
+itemmallfix
+
+
+25-05-2015: 
+- Deploy best datebase 5.4,
+- Deploy best server 5.4,
+- Deploy fix item mall
+
+- folder: fix item mall, using PS_GameDef and client fix item trade
+
+16-05-2015
+building server succeed
