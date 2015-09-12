@@ -1,6 +1,0 @@
-2015-06-07 11:37:26 PS_GAMELOG__system log start (GameLog01)
-Module list:
-C:\Shaiya\ShaiyaServer\PSM_Client\Bin\ps_gameLog.exe, loaded at 0x00400000 - 10/10/18 16:33:52
-2015-06-07 11:38:42 3 1 SERVICE_CONTROL_STOP
-2015-06-07 11:38:42 PS_GAMELOG__system log end (GameLog01)
-2015-06-07 11:38:42 3 1 SService::ServiceCtrlDispatcher(): service shutdown

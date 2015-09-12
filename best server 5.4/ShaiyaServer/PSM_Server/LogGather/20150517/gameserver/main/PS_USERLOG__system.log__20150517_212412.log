@@ -1,8 +1,0 @@
-2015-05-17 21:24:12 PS_USERLOG__system log start (UserLog)
-2015-05-17 21:24:14 connect
-2015-05-17 21:24:14 connect
-2015-05-17 21:24:49 err=-1, [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid object name 'CreateShaiya_Audit'., SQL STATE: 42S02, NATIVE ERROR: 208 (0xD0)
-2015-05-17 21:24:49 DBWrite::LogLogin: err=-1, query=EXEC usp_Try_GameLogout_R 8,4423474010281476097,4,'64'
-2015-05-17 21:24:49 err=-1, [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid object name 'CreateShaiya_Audit'., SQL STATE: 42S02, NATIVE ERROR: 208 (0xD0)
-2015-05-17 21:24:49 DBWrite::LogLogin: err=-1, query=EXEC usp_Try_GameLogout_R 8,4423474010281476097,4,'64'
-2015-05-17 21:25:22 connect

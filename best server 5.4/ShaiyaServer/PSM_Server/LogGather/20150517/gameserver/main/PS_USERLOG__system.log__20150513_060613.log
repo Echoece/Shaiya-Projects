@@ -1,5 +1,0 @@
-2015-05-13 06:06:13 PS_USERLOG__system log start (UserLog)
-2015-05-13 06:06:13 DB userlog connect error, Server=10.0.0.16, DBName=PS_UserData, User=shaiya, Pass=Khong)()
-2015-05-13 06:06:13 3 1 SService::ServiceCtrlDispatcher(): m_pService->Init()
-2015-05-13 06:06:13 PS_USERLOG__system log end (UserLog)
-2015-05-13 06:06:13 3 1 SService::ServiceCtrlDispatcher(): service shutdown
